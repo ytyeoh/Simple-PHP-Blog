@@ -1,11 +1,9 @@
 <?php
 require_once 'connect.php';
-require_once 'header.php';
+require_once 'new_head.php';
 ?>
 
-<div class="w3-panel">
-    <p>This is a simple blog project for my PHP development skills.</p>
-</div>
+
 
 <?php
 // COUNT
@@ -45,7 +43,7 @@ if (mysqli_num_rows($result) < 1) {
     $slug = htmlentities($row['slug']);
     $time = htmlentities($row['date']);
 
-    $permalink = "p/".$id ."/".$slug;
+    $permalink = "l/".$id ."/".$slug;
 
     echo '<div class="w3-panel w3-sand w3-card-4">';
     echo "<h3><a href='$permalink'>$title</a></h3><p>";
@@ -89,5 +87,5 @@ if ($page != $totalpages) {
 echo "</div></p>";
 }
 
-include("categories.php");
-include("footer.php");
+// include("categories.php");
+// include("footer.php");
