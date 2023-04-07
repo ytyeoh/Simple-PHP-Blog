@@ -25,7 +25,7 @@ $author = $row['posted_by'];
 $time = $row['date'];
 
 echo '<div class="w3-container w3-sand w3-card-4">';
-
+echo "<h6>  <a href='/homme.php'>Blogs</a> > $title </h6>";
 echo "<h3>$title</h3>";
 echo '<div class="w3-panel w3-leftbar w3-rightbar w3-border w3-sand w3-card-4">';
 echo "$description<br>";
