@@ -1,6 +1,6 @@
 <?php
 require_once 'connect.php';
-require_once 'header.php';
+require_once 'new_head.php';
 
 $id = (INT)$_GET['id'];
 if ($id < 1) {
@@ -30,7 +30,7 @@ echo "<h3>$title</h3>";
 echo '<div class="w3-panel w3-leftbar w3-rightbar w3-border w3-sand w3-card-4">';
 echo "$description<br>";
 echo '<div class="w3-text-grey">';
-echo "Postedssss by: " . $author . "<br>";
+echo "Posted by: " . $author . "<br>";
 echo "$time</div>";
 ?>
 
@@ -47,4 +47,4 @@ if (isset($_SESSION['username'])) {
 echo '</div></div>';
 
 
-include("footer.php");
+
