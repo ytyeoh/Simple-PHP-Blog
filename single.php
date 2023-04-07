@@ -32,6 +32,7 @@ echo "$description<br>";
 echo '<div class="w3-text-grey">';
 echo "Posted by: " . $author . "<br>";
 echo "$time</div>";
+echo "<h6>  <a href='/homme.php'>More Blogs</a></h6>";
 ?>
 
 
