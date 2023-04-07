@@ -3,9 +3,9 @@ ob_start();
 session_start();
 
 $dbhost 	= "localhost";
-$dbuser 	= "root";
-$dbpass 	= "";
-$dbname 	= "newblog";
+$dbuser 	= "breathelife_blog";
+$dbpass 	= "QhD38v-=lli+";
+$dbname 	= "breathelife_blogs";
 $charset 	= "utf8";
 
 $dbcon = mysqli_connect($dbhost, $dbuser, $dbpass);
