@@ -23,7 +23,7 @@ $title = $row['title'];
 $description = $row['description'];
 $author = $row['posted_by'];
 $time = $row['date'];
-
+echo '<style>.w3-container img {  width: 100%}</style>';
 echo '<div class="w3-container w3-sand w3-card-4">';
 
 echo "<h3>$title</h3>";
