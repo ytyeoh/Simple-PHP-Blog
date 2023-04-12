@@ -35,7 +35,7 @@ if (isset($_POST['upd'])) {
     }
 }
 ?>
-
+    <style>.w3-container img {  width: 100%}</style>
     <div class="w3-container">
     <div class="w3-card-4">
 
